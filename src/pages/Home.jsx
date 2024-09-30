@@ -1,9 +1,7 @@
 
 import { useOutletContext } from "react-router-dom";
 import Projects from "../components/Projects";
-import Testimonials from "../components/Testimonials";
 import SplashSection from "../components/SplashSection";
-// import ContactForm from "../components/ContactForm";
 
 export default function Home() {
     const [isDarkMode] = useOutletContext();
@@ -25,10 +23,6 @@ export default function Home() {
             <section className="w-[100%] flex flex-col flex-nowrap items-center justify-center gap-7 px-mobileBound sm:px-8 sm:gap-8 md:gap-9 lg:gap-10">
                 <h2>My Projects</h2>
                 <Projects />
-            </section>
-            <section className="w-[100%] flex flex-col flex-nowrap items-center justify-center gap-7 px-mobileBound sm:px-8 sm:gap-8 md:gap-9 lg:gap-10">
-                <h2>Testimonials</h2>
-                <Testimonials />
             </section>
         </>
     );
