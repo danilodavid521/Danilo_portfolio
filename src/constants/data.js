@@ -47,7 +47,7 @@ export const projects = [
                     Icon: Icons.DatabaseIcon,
                 },
             ],
-            url: 'https://mindfitmentalhealth.com/',
+            url: 'https://60bce1be4d9b8cf97364d5ff--elastic-visvesvaraya-271c29.netlify.app/',
             githubUrl: 'http://github.com/nazabis0223/',
         },
     },
