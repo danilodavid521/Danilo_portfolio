@@ -48,7 +48,7 @@ export const projects = [
                 },
             ],
             url: 'https://60bce1be4d9b8cf97364d5ff--elastic-visvesvaraya-271c29.netlify.app/',
-            githubUrl: 'http://github.com/nazabis0223/',
+            githubUrl: 'https://github.com/nazabis0223/3d_react_model-configurator',
         },
     },
     {
@@ -151,7 +151,7 @@ export const projects = [
                 },
             ],
             url: "https://carhive.eduam.dev",
-            githubUrl: 'http://github.com/nazabis0223/',
+            githubUrl: 'https://github.com/nazabis0223/car_rental_website',
         },
     },
 ]
