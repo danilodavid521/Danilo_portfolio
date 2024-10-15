@@ -41,7 +41,7 @@ export const projects = [
                     title: 'TailwindCSS',
                     Icon: Icons.TailwindCSSIcon,
                 },
-            
+
                 {
                     title: 'Three.js',
                     Icon: Icons.DatabaseIcon,
@@ -53,51 +53,47 @@ export const projects = [
     },
     {
         title: 'Mouse Scroll Effect',
-        src: '/assets/images/projects/threeseeds.webp',
+        src: '/assets/images/projects/threeseeds.png',
         altText: 'Screenshot of ThreeSeeds home page',
         ariaLabel: "Opens modal window with more information about the ThreeSeeds web project",
         details: {
             description: "ThreeSeeds is a non-profit organization located in California. Their mission is to provide educational, employment, and entrepreneurial opportunities that build self-esteem and empowers one to become self-sufficient.",
             technologies: [
                 {
-                    title: 'React',
+                    title: 'Vuejs',
                     Icon: Icons.ReactIcon,
                 },
                 {
                     title: 'CSS',
                     Icon: Icons.CSSIcon,
                 },
+
+                {
+                    title: 'GSAP',
+                    Icon: Icons.ProgrammingIcon,
+                },
                 {
                     title: 'TailwindCSS',
                     Icon: Icons.TailwindCSSIcon,
                 },
-            
-                {
-                    title: 'Three.js',
-                    Icon: Icons.DatabaseIcon,
-                },
+
                 {
                     title: 'JavaScript',
                     Icon: Icons.JavascriptIcon,
                 },
             ],
-            url: 'http://scroll-animation-zeta.vercel.app',
-            githubUrl: 'http://github.com/nazabis0223/',
+            url: 'https://vue-js-landing-page.netlify.app/',
+            githubUrl: 'https://github.com/nazabis0223/vuejs_landig-page',
         },
     },
     {
         title: '3D Blendering with Three.js',
-        src: '/assets/images/projects/blended-concoctions.webp',
+        src: '/assets/images/projects/blended-concoctions.png',
         altText: 'Screenshot of Blended Concoctions home page',
         ariaLabel: "Opens modal window with more information about the Blended Concoctions web project",
         details: {
             description: "A coffee shop website designed using vanilla HTML, CSS, JavaScript, and a hint of jQuery.",
             technologies: [
-                
-                    {
-                        title: 'Three.js',
-                        Icon: Icons.DatabaseIcon,
-                    },
                 {
                     title: 'React',
                     Icon: Icons.ReactIcon,
@@ -105,6 +101,10 @@ export const projects = [
                 {
                     title: 'JavaScript',
                     Icon: Icons.JavascriptIcon,
+                },
+                {
+                    title: 'GSAP',
+                    Icon: Icons.ProgrammingIcon,
                 },
                 {
                     title: 'CSS',
@@ -115,11 +115,11 @@ export const projects = [
                     Icon: Icons.TailwindCSSIcon,
                 },
             ],
-            url: "https://carvisualizer.plus360degrees.com/threejs/",
-            githubUrl: 'http://github.com/nazabis0223/',
+            url: "https://tractian-landing-page-nine.vercel.app/",
+            githubUrl: 'https://github.com/nazabis0223/react_landing-page-gsap',
         },
     },
-    
+
     {
         title: 'Car Rental Website',
         src: '/assets/images/projects/carh.png',
@@ -128,11 +128,11 @@ export const projects = [
         details: {
             description: "A car rental website built with Next.js (App Router) and TypeScript featuring dynamic routing, a responsive UI with Tailwind CSS, Clerk authentication, Vercel Postgres, Drizzle ORM, and Cloudinary for images. It includes search filters, an infinite logo slider, and Stripe integration",
             technologies: [
-                
-                    {
-                        title: 'Three.js',
-                        Icon: Icons.DatabaseIcon,
-                    },
+
+                {
+                    title: 'Three.js',
+                    Icon: Icons.DatabaseIcon,
+                },
                 {
                     title: 'React',
                     Icon: Icons.ReactIcon,
@@ -150,8 +150,43 @@ export const projects = [
                     Icon: Icons.TailwindCSSIcon,
                 },
             ],
-            url: "https://carhive.eduam.dev",
-            githubUrl: 'https://github.com/nazabis0223/car_rental_website',
+            url: "https://three-js-nu-liart.vercel.app",
+            githubUrl: 'https://github.com/nazabis0223/3D_Effect_threejs',
+        },
+    },
+
+    {
+        title: 'Threejs Landing Page with React.js',
+        src: '/assets/images/projects/threeplan.png',
+        altText: 'Screenshot of Blended Concoctions home page',
+        ariaLabel: "Opens modal window with more information about the Blended Concoctions web project",
+        details: {
+            description: "Simple Landing Page built with React-Three-Fiber ( Three.js )",
+            technologies: [
+                
+                {
+                    title: 'Three.js',
+                    Icon: Icons.DatabaseIcon,
+                },
+                {
+                    title: 'React',
+                    Icon: Icons.ReactIcon,
+                },
+                {
+                    title: 'JavaScript',
+                    Icon: Icons.JavascriptIcon,
+                },
+                {
+                    title: 'CSS',
+                    Icon: Icons.CSSIcon,
+                },
+                {
+                    title: 'TailwindCSS',
+                    Icon: Icons.TailwindCSSIcon,
+                },
+            ],
+            url: "https://threejs-drone-landing-page.vercel.app",
+            githubUrl: 'https://github.com/nazabis0223/threejs_landing-page',
         },
     },
 ]
@@ -190,7 +225,7 @@ export const techSkills = [
                 title: 'Canvas',
                 Icon: Icons.JQueryIcon,
             },
-            
+
             {
                 title: 'JavaScript',
                 Icon: Icons.JavascriptIcon,
