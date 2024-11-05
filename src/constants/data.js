@@ -210,19 +210,29 @@ export const techSkills = [
         category: 'Front-End Development',
         skills: [
             {
-                title: 'Three.js',
-                Icon: Icons.DatabaseIcon,
+                title: 'React',
+                Icon: Icons.ReactIcon,
+            },
+            
+            {
+                title: 'Node.js',
+                Icon: Icons.NodeJSIcon,
+            },
+            
+            {
+                title: 'Tailwind CSS',
+                Icon: Icons.TailwindCSSIcon,
             },
             {
-                title: 'GSAP',
-                Icon: Icons.ProgrammingIcon,
+                title: 'SASS, SCSS',
+                Icon: Icons.SassIcon,
             },
             {
-                title: 'WebGL',
-                Icon: Icons.FigmaIcon,
+                title: 'PHP',
+                Icon: Icons.PHPIcon,
             },
             {
-                title: 'Canvas',
+                title: 'jQuery',
                 Icon: Icons.JQueryIcon,
             },
 
@@ -231,20 +241,19 @@ export const techSkills = [
                 Icon: Icons.JavascriptIcon,
             },
             {
-                title: 'React',
-                Icon: Icons.ReactIcon,
-            },
-            {
                 title: 'HTML',
                 Icon: Icons.HtmlIcon,
             },
+            
             {
-                title: 'Tailwind CSS',
-                Icon: Icons.TailwindCSSIcon,
+                title: 'Express',
+                Icon: Icons.ExpressJSIcon,
             },
+            
+            
             {
-                title: 'SASS, SCSS',
-                Icon: Icons.SassIcon,
+                title: 'SQL',
+                Icon: Icons.SqlServerIcon,
             },
         ],
     },
@@ -273,32 +282,6 @@ export const techSkills = [
             },
         ],
     },
-    // {
-    //     category: 'Programming Languages',
-    //     skills: [
-    //         {
-    //             title: 'C#',
-    //             Icon: Icons.CsharpIcon,
-    //         },
-    //         {
-    //             title: 'VBA',
-    //             Icon: Icons.VBIcon,
-    //         },
-    //     ],
-    // },
-    // {
-    //     category: 'Content Management Systems',
-    //     skills: [
-    //         {
-    //             title: 'WordPress',
-    //             Icon: Icons.WordPressIcon,
-    //         },
-    //         {
-    //             title: 'Wix',
-    //             Icon: Icons.WixIcon,
-    //         },
-    //     ],
-    // },
     {
         category: 'Build Tools, Frameworks, and Versioning',
         skills: [
@@ -333,40 +316,6 @@ export const techSkills = [
             },
         ],
     },
-    // {
-    //     category: 'Microsoft Products',
-    //     skills: [
-    //         {
-    //             title: 'Sharepoint',
-    //             Icon: Icons.SharepointIcon,
-    //         },
-    //         {
-    //             title: 'Excel',
-    //             Icon: Icons.ExcelIcon,
-    //         },
-    //         {
-    //             title: 'Access',
-    //             Icon: Icons.AccessIcon,
-    //         },
-    //     ],
-    // },
-    // {
-    //     category: 'Others',
-    //     skills: [
-    //         {
-    //             title: 'APIs',
-    //             Icon: Icons.APIIcon,
-    //         },
-    //         {
-    //             title: 'REST APIs',
-    //             Icon: Icons.RestAPIIcon,
-    //         },
-    //         {
-    //             title: 'LocalWP',
-    //             Icon: Icons.LocalWP,
-    //         },
-    //     ],
-    // },
 ];
 
 export const softSkills = [
@@ -390,99 +339,57 @@ export const softSkills = [
 
 export const workExp = [
     {
-        company: 'Nexa',
+        company: 'Duservis',
         location: '',
         positions: [
             {
-                title: 'Three.js | WebGL Developer',
-                startDate: new Date(2023, 2),
-                endDate: new Date(2024, 4),
+                title: 'Full Stack Developer',
+                startDate: new Date(2022, 4),
+                endDate: new Date(2024, 8),
             },
         ],
         tasks: [
-            "Thriving with three.js and React, I crafted cutting-edge web solutions in a dynamic, innovation atmosphere.",
+            "As a full-stack developer, I integrated front-end and back-end technologies using TypeScript and Redux, while creating dynamic web applications with GSAP animations and real-time API data, ensuring high client satisfaction",
         ],
     },
     {
-        company: 'Norsoft',
+        company: 'Santa Fe',
         location: '',
         positions: [
             {
                 title: 'Front-End Developer',
-                startDate: new Date(2022, 5),
-                endDate: new Date(2023, 12),
+                startDate: new Date(2020, 11),
+                endDate: new Date(2022, 3),
             },
         ],
         tasks: [
-            "Created React and 2D animation application.",
+            "Experienced frontend developer skilled in React, Next.js, and Vue.js. Proficient in Tailwind CSS for responsive designs, ensuring optimal user experiences.",
         ],
     },
     {
-        company: 'Xerox Corporation',
-        location: 'Webster, NY',
+        company: 'Infra Fort Itabira',
+        location: '',
         positions: [
             {
                 title: 'Junior Web Developer',
-                startDate: new Date(2021, 7),
-                endDate: new Date(2022, 4),
+                startDate: new Date(2029, 5),
+                endDate: new Date(2020, 10),
             },
         ],
         tasks: [
-            "Created React and 2D animation application.",
-            "Ranked number one in my department on process quality and defects testing by standardizing automation and fail-safes",
-            "Provided technical support for remote production sites to facilitate the completion of device configurations",
-            "Collaborated with a small team to improve processes",
+            "Developed dynamic web applications using Node.js and PHP, enhancing user engagement with jQuery and HTML.",
+            
         ],
     },
 ];
 
-// export const extracurriculars = [
-//     {
-//         company: 'Toastmasters International Organization',
-//         location: 'Pittsford, NY',
-//         positions: [
-//             {
-//                 title: 'Vice President of Public Relations',
-//                 startDate: new Date(2023, 6),
-//                 endDate: 'present',
-//             },
-//             {
-//                 title: 'Sergeant at Arms',
-//                 startDate: new Date(2022, 4),
-//                 endDate: new Date(2023, 6),
-//             },
-//         ],
-//         tasks: [
-//             "Develop strategies to promote the club to the community, potential members, and guests",
-//             "Manage the club's social media accounts and website to share club events, achievements, and information",
-//             "Create content that showcases the club's activities and benefits",
-//         ],
-//     },
-//     {
-//         company: 'Literacy Rochester',
-//         location: 'East Rochester, NY',
-//         positions: [
-//             {
-//                 title: 'Digital Volunteer',
-//                 startDate: new Date(2022, 3),
-//                 endDate: new Date(2023, 9),
-//             },
-//         ],
-//         tasks: [
-//             "Diagnose and troubleshoot technical problems",
-//             "Demonstrate strong communication skills by explaining technical concepts in a clear and understandable manner",
-//             "Recognized for outstanding problem-solving capabilities",
-//         ],
-//     },
-// ];
-
 export const educations = [
     {
         degree: 'Bachelor of Computer Science (BCompSc), Computer science',
-        school: 'UNNOBA',
-        startDate: new Date(2017, 2),
-        endDate: new Date(2021, 11),
-        location: 'Pergamino, Buenos Aires',
+        school: 'Centro Universitario UNA',
+        startDate: new Date(2015, 4),
+        endDate: new Date(2029, 2),
+        location: 'Minas Gerais',
     },
 ];
 
@@ -527,42 +434,37 @@ export const dessertImages = [
 
 export const generalServices = [
     {
-        title: 'Threejs Development',
-        description: "I possess extensive experience in three.js, a powerful JavaScript library for creating 3D graphics in the browser. Over the past few years, I have developed a strong proficiency in building interactive 3D applications, visualizations, and animations. My projects have ranged from simple 3D models to complex simulations, utilizing features such as shaders, lighting, and physics integration.",
+        title: 'Full Stack Development',
+        description: "As a full-stack developer, I integrated front-end and back-end technologies using TypeScript and Redux, while creating dynamic web applications with GSAP animations and real-time API data, ensuring high client satisfaction.",
         Icon: Icons.TargetIcon,
     },
     {
         title: 'Front-End Development',
-        description: "I am a proficient front-end developer with extensive experience in React, GSAP, WebGL, Next.js, and TailwindCSS. My expertise in React allows me to build dynamic and responsive user interfaces, leveraging component-based architecture for maintainability and scalability. I utilize GSAP for creating high-performance animations, enhancing user engagement through smooth transitions and effects.",
+        description: "Experienced frontend developer skilled in React, Next.js, and Vue.js. Proficient in Tailwind CSS for responsive designs, ensuring optimal user experiences.",
         Icon: Icons.WebDesignIcon,
     },
     {
-        title: 'Web Deelopment',
-        description: "I possess a robust skill set in web development, specializing in React, JavaScript, Next.js, and TailwindCSS. My proficiency in React allows me to build dynamic and responsive user interfaces, leveraging component-based architecture for efficient code management. With JavaScript, I have a deep understanding of both ES6+ features and asynchronous programming, enabling me to create interactive web applications.",
+        title: 'Junior Web Deelopment',
+        description: "Developed dynamic web applications using Node.js and PHP, enhancing user engagement with jQuery and HTML.",
         Icon: Icons.ServerIcon,
-    },
-    {
-        title: 'Responsive Design',
-        description: "Your website will be flawlessly showcased across all screens for optimal viewing experience. Responsive design ensures your online presence adapts seamlessly to devices of all sizes.",
-        Icon: Icons.DesktopMobileIcon,
     },
 ];
 
 export const specialties = [
     {
-        title: 'Threejs Development',
+        title: 'Database',
         Icon: Icons.DatabaseIcon,
     },
     {
-        title: 'GSAP Development',
+        title: 'Node.js',
         Icon: Icons.ProgrammingIcon,
     },
     {
-        title: 'Portfolio Websites with 3D animation',
+        title: 'Portfolio Websites with animation',
         Icon: Icons.PortfolioIcon,
     },
     {
-        title: '3D Blendering',
+        title: 'Modern WebSite',
         Icon: Icons.WebContentIcon,
     },
     {

@@ -15,8 +15,8 @@ export default function Resume() {
                 <p className="text-center">If you wish to have a copy of my resume, please click below.</p>
                 <a href="/assets/Naza-Resume.pdf" target="_blank" rel="noopener noreferrer" className="glassy-icon px-6">View Resume (PDF)</a>
                 <div className="mt-mobileBound sm:mt-6 md:mt-7 lg:mt-8 w-[100%] glassy-screen flex flex-col flex-nowrap items-center justify-center gap-7 p-7 sm:p-8 sm:gap-8 md:p-9 md:gap-9 lg:p-10 lg:gap-10">
-                    <span className="text-center font-bold text-4 sm:text-3 md:text-2 lg:text-1">Naza</span>
-                    <span className="text-center font-bold text-6 sm:text-5 md:text-4 lg:text-3">Threejs Developer / Front-End Developer </span>
+                    <span className="text-center font-bold text-4 sm:text-3 md:text-2 lg:text-1">Danilo</span>
+                    <span className="text-center font-bold text-6 sm:text-5 md:text-4 lg:text-3">Full Stack Developer </span>
                 </div>
             </section>
             <section className="w-[100%] flex flex-col flex-nowrap items-center justify-center gap-7 px-mobileBound sm:px-8 sm:gap-8 md:gap-9 lg:gap-10">
