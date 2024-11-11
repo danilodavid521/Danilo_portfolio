@@ -22,20 +22,20 @@ export const navMenu = [
 
 export const projects = [
     {
-        title: 'Texture Effect',
+        title: 'React Ecommerce',
         src: '/assets/images/projects/mindfit.png',
         altText: 'Screenshot of MindFit home page',
         ariaLabel: "Opens modal window with more information about the MindFit Mental Health web project",
         details: {
-            description: "3D model configurator with react-three-fiber",
+            description: "Full stack Ecommerce Website using React and Firebase with user and additional Admin privileges",
             technologies: [
                 {
                     title: 'React',
                     Icon: Icons.ReactIcon,
                 },
                 {
-                    title: 'CSS',
-                    Icon: Icons.CSSIcon,
+                    title: 'Express',
+                    Icon: Icons.ExpressJSIcon,
                 },
                 {
                     title: 'TailwindCSS',
@@ -43,29 +43,29 @@ export const projects = [
                 },
 
                 {
-                    title: 'Three.js',
+                    title: 'Firebase',
                     Icon: Icons.DatabaseIcon,
                 },
             ],
-            url: 'https://60bce1be4d9b8cf97364d5ff--elastic-visvesvaraya-271c29.netlify.app/',
-            githubUrl: 'https://github.com/nazabis0223/3d_react_model-configurator',
+            url: 'https://eshop-firebase.vercel.app/',
+            githubUrl: 'https://github.com/danilodavid521/Ecommerce_website',
         },
     },
     {
-        title: 'Mouse Scroll Effect',
+        title: 'Laravel Ecommerce',
         src: '/assets/images/projects/threeseeds.png',
         altText: 'Screenshot of ThreeSeeds home page',
         ariaLabel: "Opens modal window with more information about the ThreeSeeds web project",
         details: {
-            description: "ThreeSeeds is a non-profit organization located in California. Their mission is to provide educational, employment, and entrepreneurial opportunities that build self-esteem and empowers one to become self-sufficient.",
+            description: "Lazapee is an ECommerce (Progressive Web Application) made with Laravel and ReactJs.",
             technologies: [
                 {
-                    title: 'Vuejs',
+                    title: 'React',
                     Icon: Icons.ReactIcon,
                 },
                 {
-                    title: 'CSS',
-                    Icon: Icons.CSSIcon,
+                    title: 'Laravel',
+                    Icon: Icons.ScheduleIcon,
                 },
 
                 {
@@ -82,76 +82,64 @@ export const projects = [
                     Icon: Icons.JavascriptIcon,
                 },
             ],
-            url: 'https://vue-js-landing-page.netlify.app/',
-            githubUrl: 'https://github.com/nazabis0223/vuejs_landig-page',
+            url: 'https://lazapee-ph.netlify.app/',
+            githubUrl: 'https://github.com/danilodavid521/ecommerce_react_laravel',
         },
     },
     {
-        title: '3D Blendering with Three.js',
+        title: 'Nextjs Tailwind Landing Page',
         src: '/assets/images/projects/blended-concoctions.png',
         altText: 'Screenshot of Blended Concoctions home page',
         ariaLabel: "Opens modal window with more information about the Blended Concoctions web project",
         details: {
-            description: "A coffee shop website designed using vanilla HTML, CSS, JavaScript, and a hint of jQuery.",
+            description: "Landing Page useing Next.js , TypeScript and Tailwind CSS",
             technologies: [
                 {
-                    title: 'React',
+                    title: 'Nextjs',
                     Icon: Icons.ReactIcon,
                 },
                 {
-                    title: 'JavaScript',
+                    title: 'TypeScript',
                     Icon: Icons.JavascriptIcon,
-                },
-                {
-                    title: 'GSAP',
-                    Icon: Icons.ProgrammingIcon,
-                },
-                {
-                    title: 'CSS',
-                    Icon: Icons.CSSIcon,
                 },
                 {
                     title: 'TailwindCSS',
                     Icon: Icons.TailwindCSSIcon,
                 },
             ],
-            url: "https://tractian-landing-page-nine.vercel.app/",
-            githubUrl: 'https://github.com/nazabis0223/react_landing-page-gsap',
+            url: "https://next-14-tailwind-landing-page.vercel.app",
+            githubUrl: 'https://github.com/danilodavid521/landing-page_next_ts',
         },
     },
 
     {
-        title: 'Car Rental Website',
+        title: 'Admin Dashboard',
         src: '/assets/images/projects/carh.png',
         altText: 'Screenshot of Blended Concoctions home page',
         ariaLabel: "Opens modal window with more information about the Blended Concoctions web project",
         details: {
-            description: "A car rental website built with Next.js (App Router) and TypeScript featuring dynamic routing, a responsive UI with Tailwind CSS, Clerk authentication, Vercel Postgres, Drizzle ORM, and Cloudinary for images. It includes search filters, an infinite logo slider, and Stripe integration",
+            description: "Next.js admin dashboard template and UI components that come with pre-built elements, components, pages, high-quality design, integrations, and much more.",
             technologies: [
 
                 {
-                    title: 'Three.js',
-                    Icon: Icons.DatabaseIcon,
-                },
-                {
-                    title: 'React',
+                    title: 'Next.js',
                     Icon: Icons.ReactIcon,
                 },
                 {
-                    title: 'JavaScript',
+                    title: 'TypeScript',
                     Icon: Icons.JavascriptIcon,
-                },
-                {
-                    title: 'CSS',
-                    Icon: Icons.CSSIcon,
                 },
                 {
                     title: 'TailwindCSS',
                     Icon: Icons.TailwindCSSIcon,
                 },
+                {
+                    title: 'CSS',
+                    Icon: Icons.CSSIcon,
+                },
             ],
-            url: "https://three-js-nu-liart.vercel.app",
-            githubUrl: 'https://github.com/nazabis0223/3D_Effect_threejs',
+            url: "https://nextadmin.co/",
+            githubUrl: 'https://github.com/danilodavid521/admin_dashboard-nextjs',
         },
     },
 
