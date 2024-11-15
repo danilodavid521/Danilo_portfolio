@@ -174,7 +174,40 @@ export const projects = [
                 },
             ],
             url: "https://threejs-drone-landing-page.vercel.app",
-            githubUrl: 'https://github.com/nazabis0223/threejs_landing-page',
+            githubUrl: 'https://github.com/danilodavid521/threejs_landing-page',
+        },
+    },
+
+    
+
+    {
+        title: 'City animation in React',
+        src: '/assets/images/projects/city-animation.png',
+        altText: 'Screenshot of Blended Concoctions home page',
+        ariaLabel: "Opens modal window with more information about the Blended Concoctions web project",
+        details: {
+            description: "Animation 📺📺 of City scene is made in React js. 🚗 🏡🏬 🌞🌤",
+            technologies: [
+                
+                {
+                    title: 'React',
+                    Icon: Icons.ReactIcon,
+                },
+                {
+                    title: 'JavaScript',
+                    Icon: Icons.JavascriptIcon,
+                },
+                {
+                    title: 'Animation',
+                    Icon: Icons.CSSIcon,
+                },
+                {
+                    title: 'TailwindCSS',
+                    Icon: Icons.TailwindCSSIcon,
+                },
+            ],
+            url: "https://threejs-drone-landing-page.vercel.app",
+            githubUrl: 'https://github.com/danilodavid521/threejs_landing-page',
         },
     },
 ]
