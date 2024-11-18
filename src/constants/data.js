@@ -206,8 +206,8 @@ export const projects = [
                     Icon: Icons.TailwindCSSIcon,
                 },
             ],
-            url: "https://threejs-drone-landing-page.vercel.app",
-            githubUrl: 'https://github.com/danilodavid521/threejs_landing-page',
+            url: "https://city-animation-2002.surge.sh/",
+            githubUrl: 'https://github.com/danilodavid521/animation_in-react',
         },
     },
 ]
