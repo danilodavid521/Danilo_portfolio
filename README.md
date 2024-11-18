@@ -1,5 +1,5 @@
 
-<h1 align="center">Nazabis Portfolio Website</h1>
+<h1 align="center">Danilo David Portfolio Website</h1>
 Welcome to my web developer portfolio. This is a space to showcase my passion for coding and design. I implemented features such as particle animation to enrich the user's web experience using vanilla JavaScript. Who knew that trigonometry and physics could be used outside of a classroom exam?
 
 ## Table of Contents

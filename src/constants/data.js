@@ -218,7 +218,7 @@ export const projects = [
 
 export const testimonials = [
     {
-        quote: "I am incredibly grateful for Naza's remarkable efforts of completely revamping our nonprofit's website. His dedication and expertise in enhancing the site's security measures while also ensuring a seamless user experience has been nothing short of exceptional. The new website not only boasts a robust security infrastructure that safeguards sensitive data, but it also welcomes visitors with an intuitive and user-friendly interface. Edward took our organization's mission to heart and translated it into an online platform that not only represents our values but also engages our audience effectively. His selfless commitment to improving our online presence has undoubtedly elevated our nonprofit's reach and impact. We owe him a debt of gratitude for his invaluable contribution in making our website a secure and inviting space for all.",
+        quote: "I am incredibly grateful for Danilo's remarkable efforts of completely revamping our nonprofit's website. His dedication and expertise in enhancing the site's security measures while also ensuring a seamless user experience has been nothing short of exceptional. The new website not only boasts a robust security infrastructure that safeguards sensitive data, but it also welcomes visitors with an intuitive and user-friendly interface. Edward took our organization's mission to heart and translated it into an online platform that not only represents our values but also engages our audience effectively. His selfless commitment to improving our online presence has undoubtedly elevated our nonprofit's reach and impact. We owe him a debt of gratitude for his invaluable contribution in making our website a secure and inviting space for all.",
         name: 'Alicia P.',
         title: 'Executive Director of Three Seeds Organization',
         src: '/assets/images/testimonials/alicia.webp',
@@ -365,8 +365,8 @@ export const workExp = [
         positions: [
             {
                 title: 'Full Stack Developer',
-                startDate: new Date(2022, 4),
-                endDate: new Date(2024, 8),
+                startDate: new Date(2022, 3),
+                endDate: new Date(2024, 7),
             },
         ],
         tasks: [
@@ -379,8 +379,8 @@ export const workExp = [
         positions: [
             {
                 title: 'Front-End Developer',
-                startDate: new Date(2020, 11),
-                endDate: new Date(2022, 3),
+                startDate: new Date(2020, 10),
+                endDate: new Date(2022, 2),
             },
         ],
         tasks: [
@@ -393,8 +393,8 @@ export const workExp = [
         positions: [
             {
                 title: 'Junior Web Developer',
-                startDate: new Date(2029, 5),
-                endDate: new Date(2020, 10),
+                startDate: new Date(2019, 4),
+                endDate: new Date(2020, 9),
             },
         ],
         tasks: [
