@@ -27,7 +27,6 @@ Welcome to my web developer portfolio. This is a space to showcase my passion fo
 ## Ideas for Future Implementation
 - ~~Implement delta time and FPS for canvas animation~~ (Completed)
 - Option for reduced motion
-- Enable testimonials section to accomodate more than one entry
 - Custom mouse pointer
 
 ## How To Use

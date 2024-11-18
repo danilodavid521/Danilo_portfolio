@@ -212,20 +212,6 @@ export const projects = [
     },
 ]
 
-
-
-
-
-export const testimonials = [
-    {
-        quote: "I am incredibly grateful for Danilo's remarkable efforts of completely revamping our nonprofit's website. His dedication and expertise in enhancing the site's security measures while also ensuring a seamless user experience has been nothing short of exceptional. The new website not only boasts a robust security infrastructure that safeguards sensitive data, but it also welcomes visitors with an intuitive and user-friendly interface. Edward took our organization's mission to heart and translated it into an online platform that not only represents our values but also engages our audience effectively. His selfless commitment to improving our online presence has undoubtedly elevated our nonprofit's reach and impact. We owe him a debt of gratitude for his invaluable contribution in making our website a secure and inviting space for all.",
-        name: 'Alicia P.',
-        title: 'Executive Director of Three Seeds Organization',
-        src: '/assets/images/testimonials/alicia.webp',
-        altText: 'Profile of Alicia P.',
-    }
-]
-
 export const techSkills = [
     {
         category: 'Front-End Development',
