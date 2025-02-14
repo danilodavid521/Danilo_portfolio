@@ -52,25 +52,25 @@ export const projects = [
         },
     },
     {
-        title: 'Laravel Ecommerce',
+        title: 'Svelte Dashboard',
         src: '/assets/images/projects/threeseeds.png',
         altText: 'Screenshot of ThreeSeeds home page',
         ariaLabel: "Opens modal window with more information about the ThreeSeeds web project",
         details: {
-            description: "Lazapee is an ECommerce (Progressive Web Application) made with Laravel and ReactJs.",
+            description: "Admin dashboard template built with Flowbite, Svelte, TypeScript and Tailwind CSS",
             technologies: [
                 {
-                    title: 'React',
-                    Icon: Icons.ReactIcon,
+                    title: 'Svelte',
+                    Icon: Icons.ProgrammingIcon,
                 },
                 {
-                    title: 'Laravel',
-                    Icon: Icons.ScheduleIcon,
+                    title: 'Typescript',
+                    Icon: Icons.ToolsIcon,
                 },
 
                 {
-                    title: 'GSAP',
-                    Icon: Icons.ProgrammingIcon,
+                    title: 'Teamwork',
+                    Icon: Icons.TeamworkIcon,
                 },
                 {
                     title: 'TailwindCSS',
@@ -144,37 +144,38 @@ export const projects = [
     },
 
     {
-        title: 'Threejs Landing Page with React.js',
-        src: '/assets/images/projects/threeplan.png',
-        altText: 'Screenshot of Blended Concoctions home page',
-        ariaLabel: "Opens modal window with more information about the Blended Concoctions web project",
+        title: 'Laravel Ecommerce',
+        src: '/assets/images/projects/threeseeds.png',
+        altText: 'Screenshot of ThreeSeeds home page',
+        ariaLabel: "Opens modal window with more information about the ThreeSeeds web project",
         details: {
-            description: "Simple Landing Page built with React-Three-Fiber ( Three.js )",
+            description: "Lazapee is an ECommerce (Progressive Web Application) made with Laravel and ReactJs.",
             technologies: [
-                
-                {
-                    title: 'Three.js',
-                    Icon: Icons.DatabaseIcon,
-                },
                 {
                     title: 'React',
                     Icon: Icons.ReactIcon,
                 },
                 {
-                    title: 'JavaScript',
-                    Icon: Icons.JavascriptIcon,
+                    title: 'Laravel',
+                    Icon: Icons.ScheduleIcon,
                 },
+
                 {
-                    title: 'CSS',
-                    Icon: Icons.CSSIcon,
+                    title: 'GSAP',
+                    Icon: Icons.ProgrammingIcon,
                 },
                 {
                     title: 'TailwindCSS',
                     Icon: Icons.TailwindCSSIcon,
                 },
+
+                {
+                    title: 'JavaScript',
+                    Icon: Icons.JavascriptIcon,
+                },
             ],
-            url: "https://threejs-drone-landing-page.vercel.app",
-            githubUrl: 'https://github.com/danilodavid521/threejs_landing-page',
+            url: 'https://lazapee-ph.netlify.app/',
+            githubUrl: 'https://github.com/danilodavid521/ecommerce_react_laravel',
         },
     },
 
