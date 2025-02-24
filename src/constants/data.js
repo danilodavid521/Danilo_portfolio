@@ -452,8 +452,8 @@ export const generalServices = [
         Icon: Icons.WebDesignIcon,
     },
     {
-        title: 'Junior Web Deelopment',
-        description: "Developed dynamic web applications using Node.js and PHP, enhancing user engagement with jQuery and HTML.",
+        title: 'DevOps & AWS',
+        description: "Implemented CI/CD pipelines on AWS using CodePipeline, CodeBuild, and CodeDeploy to automate testing and deployments, enhancing collaboration, efficiency, and reliability in our software delivery process.",
         Icon: Icons.ServerIcon,
     },
 ];
